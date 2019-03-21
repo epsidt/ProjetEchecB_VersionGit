@@ -1,12 +1,6 @@
 #include "Reine.h"
 
-
-
-Reine::Reine()
+Reine::Reine(bool couleur) : Piece("dame", couleur)
 {
-}
 
-
-Reine::~Reine()
-{
 }

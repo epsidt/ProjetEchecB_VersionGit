@@ -3,5 +3,5 @@
 
 class Roi : public Piece {
 public:
-	Roi(string couleur);
+	Roi(bool couleur);
 };

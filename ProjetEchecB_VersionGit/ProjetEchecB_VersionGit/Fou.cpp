@@ -1,12 +1,6 @@
 #include "Fou.h"
 
-
-
-Fou::Fou()
+Fou::Fou(bool couleur) : Piece("fou", couleur)
 {
-}
 
-
-Fou::~Fou()
-{
 }

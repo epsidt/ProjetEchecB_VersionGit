@@ -1,12 +1,6 @@
 #include "Tour.h"
 
-
-
-Tour::Tour()
+Tour::Tour(bool couleur) : Piece("tour", couleur)
 {
-}
 
-
-Tour::~Tour()
-{
 }

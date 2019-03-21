@@ -7,11 +7,11 @@ protected:
 	bool _couleur; // True = blanc, false = noir
 	bool _pieceDeplace; // True = déplacée, false = non déplacée
 public:
-	Piece(string nom, bool couleur);
+	Piece(bool couleur);
 
 	void setPieceDeplace(); // Met la valeur pieceDeplace à true
 
-	string getNom();
+	
 	bool getCouleur();
 	bool getPieceDeplace();
 

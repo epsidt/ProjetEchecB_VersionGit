@@ -1,12 +1,16 @@
 #include "Joueur.h"
 
-
-
 Joueur::Joueur()
 {
+	_joueur = true;
 }
 
-
-Joueur::~Joueur()
+void Joueur::setJoueur(bool joueur)
 {
+	_joueur = joueur;
+}
+
+bool Joueur::getJoueur()
+{
+	return _joueur;
 }

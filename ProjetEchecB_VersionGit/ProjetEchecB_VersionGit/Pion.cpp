@@ -1,12 +1,6 @@
 #include "Pion.h"
 
-
-
-Pion::Pion()
+Pion::Pion(bool couleur) : Piece("pion", couleur)
 {
-}
 
-
-Pion::~Pion()
-{
 }

@@ -3,12 +3,18 @@
 
 class Case {
 private:
-	Piece _unePiece;
-	bool _couleur; // True = blanc, false = noir
+	Piece *_unePiece;
+	Position *_unePosition;
+	int _couleur; // 1 = blanc, 2 = noir, 3 = vert
 	bool _vide; // True = vide, false = pas vide
 
 public:
-	Case(bool couleur);
+	Case(Piece *unePiece, Position *unePosition, bool couleur);
+	Case(Position *unePosition, bool couleur);
 
-	bool getCouleur();
+	void ajouterPiece(Piece *unePiece);
+	void setCouleur(int couleur);
+	void setVide(bool vide);
+
+	bool getVide();
 };

@@ -1,9 +1,8 @@
 #pragma once
-#include <iostream>
 
 using namespace std; 
 
-class jeu
+class Jeu
 {
 private: 
 
@@ -16,6 +15,6 @@ public:
 	void confirmationDeplacement();
 	void tourDeJeu(); 
 	void pat(); 
-	void jeu();
+	Jeu();
 	
 };

@@ -3,5 +3,5 @@
 
 class Reine : public Piece {
 public:
-	Reine(string couleur);
+	Reine(bool couleur);
 };

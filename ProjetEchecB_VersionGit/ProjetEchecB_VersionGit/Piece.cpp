@@ -1,12 +1,23 @@
 #include "Piece.h"
 
-
-
-Piece::Piece()
+Piece::Piece(bool couleur)
 {
+	_couleur = couleur;
+	_pieceDeplace = false;
 }
 
 
-Piece::~Piece()
+bool Piece::getCouleur()
 {
+	return _couleur;
+}
+
+bool Piece::getPieceDeplace()
+{
+	return _pieceDeplace;
+}
+
+void Piece::setPieceDeplace()
+{
+	_pieceDeplace = true;
 }
