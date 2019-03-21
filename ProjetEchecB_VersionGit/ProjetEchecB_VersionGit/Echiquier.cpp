@@ -1,12 +1,6 @@
 #include "Echiquier.h"
 
-
-
 Echiquier::Echiquier()
 {
-}
-
-
-Echiquier::~Echiquier()
-{
+	Case *_plateau[8][8];
 }

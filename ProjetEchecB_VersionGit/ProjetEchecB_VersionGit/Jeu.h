@@ -7,6 +7,8 @@ class Jeu
 private: 
 
 public:
+	Jeu();
+
 	void initialisation();
 	void afficherGagnant();
 	void jouer();
@@ -15,6 +17,4 @@ public:
 	void confirmationDeplacement();
 	void tourDeJeu(); 
 	void pat(); 
-	Jeu();
-	
 };

@@ -6,7 +6,6 @@ Piece::Piece(bool couleur)
 	_pieceDeplace = false;
 }
 
-
 bool Piece::getCouleur()
 {
 	return _couleur;

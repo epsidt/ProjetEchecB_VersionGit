@@ -3,5 +3,5 @@
 
 class Pion : public Piece {
 public:
-	Pion(string couleur);
+	Pion(bool couleur);
 };

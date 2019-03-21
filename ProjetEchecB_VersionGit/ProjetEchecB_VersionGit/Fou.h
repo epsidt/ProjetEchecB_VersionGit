@@ -3,5 +3,5 @@
 
 class Fou : public Piece {
 public:
-	Fou(string couleur);
+	Fou(bool couleur);
 };

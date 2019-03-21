@@ -1,8 +1,10 @@
 #pragma once
 #include "Case.h"
 
-class Echiquier 
-{
+class Echiquier {
 private:
-	Case _plateau[8][8];
+	Case *_plateau[8][8];
+
+public:
+	Echiquier();
 };

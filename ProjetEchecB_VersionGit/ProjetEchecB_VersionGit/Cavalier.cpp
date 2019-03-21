@@ -1,6 +1,6 @@
 #include "Cavalier.h"
 
-Cavalier::Cavalier(bool couleur) : Piece("dame", couleur)
+Cavalier::Cavalier(bool couleur) : Piece(couleur)
 {
 
 }
