@@ -4,4 +4,6 @@
 class Roi : public Piece {
 public:
 	Roi(bool couleur);
+private:
+	void deplacement();
 };

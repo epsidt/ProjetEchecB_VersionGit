@@ -4,3 +4,8 @@ Pion::Pion(bool couleur) : Piece(couleur)
 {
 
 }
+
+void Pion::deplacement()
+{
+
+}

@@ -3,8 +3,7 @@
 
 class Echiquier {
 private:
-	Case *_plateau[8][8];
-
+	Case *_tableau[8][8];
 public:
 	Echiquier();
 };

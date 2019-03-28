@@ -20,3 +20,8 @@ void Piece::setPieceDeplace()
 {
 	_pieceDeplace = true;
 }
+
+void Piece::deplacement()
+{
+
+}

@@ -4,4 +4,6 @@
 class Fou : public Piece {
 public:
 	Fou(bool couleur);
+private:
+	void deplacement();
 };

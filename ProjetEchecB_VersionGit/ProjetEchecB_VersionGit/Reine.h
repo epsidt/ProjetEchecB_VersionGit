@@ -4,4 +4,6 @@
 class Reine : public Piece {
 public:
 	Reine(bool couleur);
+private:
+	void deplacement();
 };

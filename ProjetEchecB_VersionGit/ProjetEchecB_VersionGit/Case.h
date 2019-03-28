@@ -1,5 +1,10 @@
 #pragma once
-#include "Piece.h"
+#include "Pion.h"
+#include "Roi.h"
+#include "Reine.h"
+#include "Tour.h"
+#include "Cavalier.h"
+#include "Fou.h"
 
 class Case {
 private:

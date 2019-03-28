@@ -14,6 +14,8 @@ public:
 	bool getCouleur();
 	bool getPieceDeplace();
 
+	void afficher(); // Affiche les pièces existentes
+	virtual void deplacement(); // Classe virtuelle
 	void cliquer(); // Permet de détecter qu'une pièce est cliquée
 
 	bool verificationCouleur(); // Vérifie si la pièce ciblée est mangeable

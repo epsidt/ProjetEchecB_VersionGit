@@ -4,3 +4,8 @@ Tour::Tour(bool couleur) : Piece(couleur)
 {
 
 }
+
+void Tour::deplacement()
+{
+
+}

@@ -4,4 +4,6 @@
 class Cavalier : public Piece {
 public:
 	Cavalier(bool couleur);
+private:
+	void deplacement();
 };

@@ -4,4 +4,6 @@
 class Pion : public Piece {
 public:
 	Pion(bool couleur);
+private:
+	void deplacement();
 };
