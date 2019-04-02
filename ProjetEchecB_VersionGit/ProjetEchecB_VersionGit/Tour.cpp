@@ -1,6 +1,7 @@
 #include "Tour.h"
 
-Tour::Tour(bool couleur) : Piece(couleur)
+
+Tour::Tour(bool couleur, int positionX, int positionY) : Piece(couleur, positionX, positionY)
 {
 
 }

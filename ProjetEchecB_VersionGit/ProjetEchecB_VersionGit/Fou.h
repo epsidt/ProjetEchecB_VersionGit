@@ -3,7 +3,8 @@
 
 class Fou : public Piece {
 public:
-	Fou(bool couleur);
+	Fou(bool couleur, int positionX, int positionY);
 private:
+	
 	void deplacement();
 };

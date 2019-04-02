@@ -1,6 +1,6 @@
 #include "Fou.h"
 
-Fou::Fou(bool couleur) : Piece(couleur)
+Fou::Fou(bool couleur, int positionX, int positionY) : Piece( couleur,  positionX, positionY)
 {
 
 }

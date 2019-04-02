@@ -3,7 +3,8 @@
 
 class Pion : public Piece {
 public:
-	Pion(bool couleur);
+	Pion(bool couleur, int positionX, int positionY);
 private:
+	
 	void deplacement();
 };

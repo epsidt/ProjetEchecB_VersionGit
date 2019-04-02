@@ -1,6 +1,6 @@
 #include "Roi.h"
 
-Roi::Roi(bool couleur) : Piece(couleur)
+Roi::Roi(bool couleur, int positionX, int positionY) : Piece(couleur, positionX, positionY)
 {
 
 }

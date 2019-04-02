@@ -3,7 +3,8 @@
 
 class Roi : public Piece {
 public:
-	Roi(bool couleur);
+	Roi(bool couleur, int positionX, int positionY);
 private:
+	
 	void deplacement();
 };

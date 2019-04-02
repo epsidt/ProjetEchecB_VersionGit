@@ -1,6 +1,6 @@
 #include "Reine.h"
 
-Reine::Reine(bool couleur) : Piece(couleur)
+Reine::Reine(bool couleur, int positionX, int positionY) : Piece(couleur,  positionX, positionY)
 {
 
 }

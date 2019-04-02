@@ -1,4 +1,5 @@
 #pragma once
+#include "Echiquier.h"
 
 using namespace std; 
 
